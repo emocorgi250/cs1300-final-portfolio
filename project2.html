@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" /> 
+  </head>
+
+  <body style="padding-top: 80px; padding-left:0px; padding-right:0px; padding-bottom:0px; background-color:rgb(32, 32, 32);">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <a class="btn btn-primary btn-lg " href="#" id="btn-back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+  <nav id="navbar-example2" class="navbar mb-3 fixed-top" style="background-color:rgb(32, 32, 32);">
+    <a class="navbar-brand" style="padding-left:5%;" id="edward" href="index.html">
+    <h1 style=" font-size: 48px; color: rgb(6, 159, 183); text-shadow: #4276b9 4px 4px 4px; ">Home</h1>
+    </a>
+    <ul class="nav nav-pills" style="padding-right:5%;">
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading1">CONTEXT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading2">RESEARCH</a>
+      </li>
+      <li class="nav-item" >
+        <a class="nav-link" href="#scrollspyHeading3">DESIGN</a>
+      </li>
+      <li class="nav-item" >
+        <a class="nav-link" href="#scrollspyHeading4">CONCLUSION</a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="20" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example rounded-2" tabindex="0">
+    <div style="background-image: url('assets/project2-bg2.png'); background-position-x:center; padding-left:0px; padding:0px; margin:0px; padding-bottom:5%; ">
+    <div class="jumbotron" style="padding:0px; margin:0px; padding-top:3%;" >
+        <h1 style="font-size:60px; font-weight:900; color:black; text-shadow: 3px 3px 3px rgba(59, 55, 55, 0.5); text-align:center; padding-top:2%; padding-bottom:15%; ">
+            Responsive Website Redesign <br>
+            for "Poco Loco"
+        </h1>
+    </div>
+    </div>
+
+
+    <div style="background-color:white; padding-top:1%; padding-bottom:5%;"   id="scrollspyHeading1">
+    <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+        <div class="divider-custom-line"></div>
+    </div>
+    <h1 style="text-align:center;">CONTEXT</h1>
+    <p style="font-size:24px; padding-left:15%; padding-right:15%;">Poco Loco is a local food business in Providence that mainly serves tacos. It has a relatively small-scale business, with one brick-and-mortar store and several flexible food trucks. I find its official website kind of lacking in 
+        design, usability and accessbility. In this project I try to analyze and build a redesigned version of this website.
+      </p>
+    </div>
+    <div style="background-color:white; padding-top:1%; padding-bottom:5%;" id="scrollspyHeading2">
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <h1 style="text-align:center;">RESEARCH & FEEDBACK</h1>
+        <div style="padding-left:15%; padding-right:15%;">
+        <h3>Usability</h3>
+        <p style="font-size : 24px;">
+          <ul style="font-size : 24px;">
+            <li>I think the website is lacking in navigation usability.In the desktop and tablet version of this website, the navigation items are at the top left corner, in very small font size similar to the description paragraph in the middle, so it's likely that new users cannot notice them right away. And the navigation items does not seem interactive enough until users 
+              hover the mouse on them. Therefore, it can be confusing for new users to find if this website has several pages and how to switch pages. In the phone version, the "menu" is also very small and hard to notice on top of the screen.</li>
+            <li>I think the website also has problems in readablity and clarity in content. The main description paragraph on the Welcome page is especially small in font size, making it somewhat difficult for some users to read. Also, 
+              as a relatively small-scale food business, and as the website is mainly used for introduction instead of service purposes such as ordering or reserving, I think users expect to see what they offer directly. However, the website only provides 
+              little information such as "tacos", without supporting images.
+            </li>The website is not efficient enough to users. Users can only find the location and relevant information in the Contact page. As their food is served in the brick-and-mortar store and food trucks, I think it's important to let users know their purpose and location 
+            directly. Clicking to a Contact page does not seem efficient enough for a restaurant's website.
+          </ul>
+        <h3>Learnability</h3>
+        <ul style="font-size : 24px;">
+          <li>I think the website is also lacking in learnability. The website does not provide enough context to guide users to check their "Contact" page in order to find their restaurant's location, and their food trucks' locations are not on the "Contact" page but only on the 
+            "The Truck" page. So it may take some trials and errors for new users to understand what Poco Loco's business is about, and where to find them.
+          </li>
+        </ul>
+        <h3>Memorability</h3>
+        <ul style="font-size : 24px;">
+          <li>In terms of memorability, I think it may not a big issue, mainly revolving around the different pages users need to look for store and truck locations.
+          </li>
+        </ul>
+          <h3>Accessbility</h3>
+        <ul style="font-size : 24px;">
+          <li>When using the WAVE tool to check this website, 3 errors are detected. The errors are "Empty Link Error", found at the 3 social media icon links. It means 
+            the function or purpose of the link is not presented in text to the user. This can introduce confusion for keyboard and screen reader users. I think it does bring 
+            accessbility problems and should be fixed by adding text explanation to help certain users understand this link.
+          </li>
+        </ul>
+        </p>
+    </div>
+        </div>
+
+        <div style="background-color:rgb(255, 255, 255); padding-top:1%; padding-bottom:5%;" id="scrollspyHeading3">
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <h1 style="text-align:center;">DESIGN</h1>
+        <div  style="padding-left:15%; padding-right:15%;">
+            <h2>Visual Design Style Guide</h2>
+            <HR align="left" width="70%" color=#ebedee SIZE=3>
+              <div class="gallery-item-container">
+                <img class="gallery-item" width=60% src="./assets/components.jpg" alt="visual design style guide">
+              </div>
+    
+            <h2>Low-fidelity Wireframing</h2>
+            <HR align="left" width="70%" color=#ebedee SIZE=3>
+              <div class="gallery-item-container">
+                <img class="gallery-item" width=80% src="./assets/pc.png" alt="pc_lofi">
+                <img class="gallery-item" width="50%" src="./assets/ipad.png" alt="ipad_lofi">
+                <img class="gallery-item" width="30%" src="./assets/iphone.png" alt="ipone_lofi">
+              </div>
+          
+          <h2>High-fidelity Wireframing</h2>
+          <HR align="left" width="60%" color=#ebedee SIZE=3>
+            <div class="gallery-item-container">
+              <img class="gallery-item" width=80% src="./assets/figma_desktop.jpg" alt="figma desktop">
+              <img class="gallery-item" width=80% src="./assets/figma_tablet.jpg" alt="figma tablet">
+              <img class="gallery-item" width=80% src="./assets/figma_phone.jpg" alt="figma phone">
+            </div>
+          
+          <h2>Responsive Website</h2>
+          <HR align="left" width="60%" color=#ebedee SIZE=3>
+            <p><a href="https://emocorgi250.github.io/cs1300-project2-page/">https://emocorgi250.github.io/cs1300-project2-page/</a></p>
+            <div class="gallery-item-container">
+                <img class="gallery-item" width=80% src="./assets/screenshot_ori_2.jpg" alt="screenshot of the pc website">
+                <img class="gallery-item" width=50% src="./assets/ori_ipad.jpg" alt="screenshot of the ipad website">
+                <img class="gallery-item" width=30% src="./assets/ori_iphone.jpg" alt="screenshot of the iphone website">
+            </div>
+      </div>
+
+    </div>
+  
+    <div style="background-color:white; padding-top:1%; padding-bottom:5%;" id="scrollspyHeading4">
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <h1 style="text-align:center;">CONCLUSION</h1>
+        <ul style="font-size : 24px; padding-left:15%; padding-right:15%;">
+            <li>First, I took away the skills necessary to analyze and identify flaws in an existing interface ("Poco Loco" website), and learned to create low-fidelity and high-fidelity prototypes</li>
+            <li>After designing and implementing a responsive website for three kinds of device, I learned about how to make the same website compatible and usable on different sizes of interface.</li>
+            <li>I got the fundamental ideas of responsive website design in UI/UX, and how to redesign a flawed site to improve usablity.</li>
+        </ul>
+    </div>
+
+
+    <div style="margin-top:2%; background-color:rgb(32,32,32);" >
+    <h2 align="center"  style="padding-top: 10px; color:#5c9ee1" >Let's get in touch!</h2>
+    <div align="center">
+      
+      <p class="contact" style="font-size:20px; color:white; font-weight:500;">
+      (000)-111-2222  <br>  
+      myname@gmail.com
+      </p>
+
+    <div class="social-icons" >
+      <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
+      <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
+      <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
+      <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
+    </div>
+    <div style="padding-top:5%;">
+      <p style="color:white;">© Made by Edward, 2022</p>
+    </div>
+
+    </div>
+  </div>
+  </div>
+
+
+</div>
+  </body>
+
+</html>
